@@ -21,68 +21,92 @@ You should see Flow 1 running on IBM Cloud with a virtual thermometer. For now, 
 
 ![5](https://user-images.githubusercontent.com/36006325/41722728-62b73de2-757a-11e8-96d4-30735890518f.png)
 
-### Connect Virtual sensor to your Application
 
-1. After you start your Internet of Things Platform Starter instance, click the following link to connect a temperature simulator to the IBM IoT app In node as shown in blue in Flow 1: http://ibm.biz/iotsensor
 
-![6](https://user-images.githubusercontent.com/36006325/41722880-bf506506-757a-11e8-9498-6dbb0ea4e139.png)
 
-2. Copy the value in the upper-right corner of the virtual thermometer. In the image above, the value is 03075c7af9d9.
+# Terjmat - Translation Chatbot with Node-RED
 
-3. In the flow editor, double-click the IBM IoT App In node.
 
-![7](https://user-images.githubusercontent.com/36006325/41722940-e8979a10-757a-11e8-8e47-7f8b47cfda17.png)
+## Overview
+Terjmat is a multi-language translation service integrated with Telegram application to make the translation easy by using IBM services. IBM's Language Translator is one of the best language translation service, it has the capability to connect to other IBM's services. These services can be linked to Telegram application using Node-RED app. When you link them, users can use the translation in an easy way by sending text or voice to your bot. In this guide, we shall go through the steps involved in creating a Node-RED boilerplate available in IBM Cloud and link Terjmat to a Telegram as the user interface using Node-RED flows in under 20 minutes by using only IBM Cloud services.
+## Learning objectives
+After completing this project, you will understand how to;
+- [Create a Node-RED flow](#creating-node-red)
+- [Create a Telegram bot](#creating-a-telegram-bot)
+- [Create a translator dialog using Language Translator, Speech to Text, Text to Speech IBM services](#create-the-flow)
+- [Integrate Node-RED with Telegram as an interface for Terjmat](#configure-the-telegram)
+## Prerequisites
+In order to complete this project, you will need the following prerequisites:
+- [IBM Cloud](https://www.ibm.com/cloud/) account - sign up if you don't have an account yet.
+- [Language Translator](https://github.com/watson-developer-cloud/node-red-labs/blob/master/basic_examples/language_translator/README.md) service
+- [Language Identification](https://github.com/watson-developer-cloud/node-red-labs/blob/master/basic_examples/language_identification/README.md) service
+- [Speech to Text](https://github.com/watson-developer-cloud/node-red-labs/blob/master/basic_examples/speech_to_text/README.md) service
+- [Text to Speech](https://github.com/watson-developer-cloud/node-red-labs/blob/master/basic_examples/text_to_speech/README.md) service
+- [Node-RED starter](https://console.bluemix.net/catalog/starters/node-red-starter)
+- Install Telegram Application on your Mobile Phone.
 
-4. Paste the ID of the sensor into Device Id field. Click Done and then deploy the flow.
+## Estimated time
+- Creating a bot on Telegram should take less than 5 minutes
+- Developing the complete application on Node-RED should take a maximum 20 minutes.
+- Overall the time for completing this project should take approximately 25 minutes.
+## Building the Translation app
 
-![8](https://user-images.githubusercontent.com/36006325/41723004-1060550a-757b-11e8-91b7-f3517a81b036.png)
 
-5. Go to the virtual sensor and increase the temperature to 41° C or more.
-In the flow editor, note that the flow has three green output debug nodes that show flow data in the debug pane.
+### Creating Node-RED
+To create and configur Node-RED app, go to your IBM Cloud account and click Catalog then choice Starter Kits from the lift side then choice Node-RED Starter as shown in the following figure.
 
-6. Disconnect the top green Debug output payload node in the top flow by clicking the connecting line and pressing Delete on your keyboard. Disconnect the device data node on the bottom flow as shown in the following image. Then, click Deploy.
+![`Translator`](images/3.png)
 
-You might need to scroll down in the debug pane to see the simplified view of temperatures.
 
-![9](https://user-images.githubusercontent.com/36006325/41723228-91197186-757b-11e8-987c-f2c08365f4ba.png)
 
-### Add Email notifications to your flow
+After that, Fill-out the fields to create IoT Platform:
+- App name: has to be unique in the IBM cloud domain.
+- Host name: will be filled out automatically based on the App name.
 
-You’ll need an Email account.
+click on Create 
+![`Translator`](images/4.png)
 
-1. In the flow editor under social, drag a email out node onto the canvas under the cpu status node so that you can notify others when the CPU temperature exceeds 40° Celsius.
+Then, wait seconds until shows the application shows Running and click on Visit App URL
 
-2. Click the connecting port of the danger node on the right and connect it to the Email (email out) node.
+![`Translator`](images/5.png)
 
-3. Double-click the Email node to edit its information.
+After that, for first time, it will ask you to setup the username and password. Please follow the instruction to secure your editor so only authorized users can access it. 
 
-4. Click the pencil icon to edit and associate the Email node with the Email account of your choice.
+<img src="images/6.png" width="50%" height="40%" >
 
-5. Click Done and then deploy the Node-RED flow.
-Whenever the temperature exceeds 40° Celsius, an email is sent. 
+Then, click on "Go to your Node-RED flow editor".
 
-### Display data collected in real-time
+![`Translator`](images/7.png)
 
-1. Click on the hamburger menu on the top right corner
+### Configure the Telegram 
+Now, this is Node-RED editer and we need to add Telegram nodes, so select manage palette from the top right menu.
 
-2. Click on Manage Palette
+![`Translator`](images/8.jpg)
 
-3. Click on the install tab
+At the manage palette menu click on the Install tab then search for telegram. After that, install node-red-contrib-telegrambot and close the palette menu.
 
-4. Search for 'node-red-dashboard'
+![`Translator`](images/9.png)
 
-5. Click on Install
+Search for telegram nodes from the upper left filter section then drag and drop Telegram receiver and Telegram sender nodes.  
+![`Translator`](images/10.png)
+Double click on the Telegram receiver node and click on the pencil icon for configuring your bot credentials
 
-6. In the flow editor under dashboard, drag the chart node onto the canvas above the temp node so that you can display the temperature data as it is collected.
+![`Translator`](images/11.png)
 
-7. Click the connecting port of the temp node on the right and connect it to the chart node.
+Fill the bot-name and token fields according to the bot credentials you created earlier.
 
-8. Double-click the chart node to edit its information.
+![`Translator`](images/12.png)
 
-9. Once all the information has been entered, click on Deploy.
+In Telegram sender node select the bot credentials you created in Telegram receiver node (example_bot in my case).
 
-10. Next click on the dashboard tab on the right pane and click on the link-out icon which will direct you to the Node-Red Dashboard consisting of the chart displayed.
+![`Translator`](images/13.png)
 
-As the temperature of the sensor changes, you can see the changes reflect on the chart.
+Now you have configured the Telegram part on Node-RED. You can test it by connecting the Telegram receiver node to the Telegram sender node.
 
-----------------------------------------------------------------------------------------------------------------------------------------------------
+![`Translator`](images/14.png)
+
+You can send a message to your bot on Telegram and it will echo the message you wrote. That's because we forwarded the message payload directly to the Telegram sender.
+
+<img src="images/15.jpg" width="50%" height="40%" >
+
+
