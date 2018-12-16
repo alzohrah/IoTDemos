@@ -29,7 +29,7 @@ In order to complete this project, you will need the following prerequisites:
 
 ### Create your Node-RED application on Raspberry pi
 
-# Getting started with Node-RED
+## Getting started with Node-RED
 
 Node-RED is a drag-and-drop visual tool which comes pre-installed on Raspbian. In this resource we will use Node-RED to control LEDs via the Raspberry Pi's GPIO pins.
 
@@ -148,8 +148,22 @@ Programs in Node-RED are called **flows**. You can see that your blank page is l
 
 
 
-
 ## Building an IoT application
+
+### Configure IBM IoT platform
+
+Now, this is Node-RED editer and we need to add IBM Watson IoT nodes, so select manage palette from the top right menu.
+
+![`Translator`](images/8.jpg)
+
+At the manage palette menu click on the Install tab then search for ```node-red-contrib-ibm-watson-iot```. After that, install node-red-contrib-telegrambot and close the palette menu.
+
+![`Translator`](images/9.png)
+
+Search for telegram nodes from the upper left filter section then drag and drop Telegram receiver and Telegram sender nodes.  
+![`Translator`](images/10.png)
+
+
 
 ### Creating Node-RED
 To create and configur Node-RED app, go to your IBM Cloud account and click Catalog then choice Starter Kits from the lift side then choice Node-RED Starter as shown in the following figure.
