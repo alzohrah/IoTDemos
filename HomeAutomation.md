@@ -49,7 +49,7 @@ In order to complete this project, you will need the following prerequisites:
 - Creating a bot on Telegram should take less than 5 minutes
 - Developing the complete application on Node-RED should take a maximum 20 minutes.
 - Overall the time for completing this project should take approximately 25 minutes.
-## Building the Translation app
+## Building an IoT application
 
 
 ### Creating Node-RED
