@@ -158,7 +158,7 @@ Now, this is Node-RED editer and we need to add IBM Watson IoT nodes, so select 
 
 At the manage palette menu click on the Install tab then search for ```node-red-contrib-ibm-watson-iot```. After that, install node-red-contrib-telegrambot and close the palette menu.
 
-![`Translator`](images/9.png)
+![`Translator`](images/ibm-watson-iot.png)
 
 Search for telegram nodes from the upper left filter section then drag and drop Telegram receiver and Telegram sender nodes.  
 ![`Translator`](images/10.png)
