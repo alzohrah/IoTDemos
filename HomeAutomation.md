@@ -42,7 +42,6 @@ In order to complete this project, you will need the following prerequisites:
 ![``](images/Configur-Watson-IoT3.png)
 ![``](images/Configur-Watson-IoT4.png)
 ![``](images/Configur-Watson-IoT5.png)
-
 ![``](images/Configur-Watson-IoT6.png)
 ![``](images/Configur-Watson-IoT7.png)
 ![``](images/Configur-Watson-IoT8.png)
