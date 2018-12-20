@@ -1,4 +1,4 @@
-# Contrall your IoT home applinces using IBM IoT platform and Node Red.
+# Contrall your IoT home applinces using IBM IoT platform and Node-RED.
 ----------------------------------------------------------------------------------------------------
 
 ## Overview
