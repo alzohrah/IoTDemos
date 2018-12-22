@@ -65,13 +65,45 @@ These are important information to access to this device. **Save and keep them s
 
  
 ### Configure your Node-RED application on Raspberry pi
+
+#### Add ibm-watson-iot Nodes to your Node-RED
+Check your Nodes pane on the left side if it has an ibm-watson-iot nodes as it shown in folloing figure. 
+
 ![`Configur-Watson-IoT`](images/Configur-Watson-IoT.png)
+
+*skip this step if you have* 
+If you don't have, select manage palette from the top right menu.
+
+![`Translator`](images/8.jpg)
+
+At the manage palette menu click on the Install tab then search for ibm-watson-iot. After that, install node-red-contrib-ibm-watson-iot and close the palette menu.
+
+![`Translator`](images/9.png)
+
+
+
+
 ![`Configur-Watson-IoT2`](images/Configur-Watson-IoT2.png)
+
+
+
 ![`Configur-Watson-IoT3`](images/Configur-Watson-IoT3.png)
+
+
+
 ![`Configur-Watson-IoT4`](images/Configur-Watson-IoT4.png)
+
+
+
 ![`Configur-Watson-IoT5`](images/Configur-Watson-IoT5.png)
+
+
 ![`Configur-Watson-IoT6`](images/Configur-Watson-IoT6.png)
+
+
 ![`Configur-Watson-IoT7`](images/Configur-Watson-IoT7.png)
+
+
 ![`Configur-Watson-IoT8`](images/Configur-Watson-IoT8.png)
 
 
