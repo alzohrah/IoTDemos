@@ -69,7 +69,7 @@ These are important information to access to this device. **Save and keep them s
 #### Add ibm-watson-iot Nodes to your Node-RED
 Check your Nodes pane on the left side if it has an ibm-watson-iot nodes as it shown in folloing figure. 
 
-![`Configur-Watson-IoT`](images/Configur-Watson-IoT.png)
+![`IBMWatson-IoT`](images/IBMWatson-IoT.png)
 
 *skip this step if you have* 
 If you don't have, select manage palette from the top right menu.
@@ -81,7 +81,7 @@ At the manage palette menu click on the Install tab then search for ibm-watson-i
 ![`Translator`](images/9.png)
 
 
-
+![`Configur-Watson-IoT`](images/Configur-Watson-IoT.png)
 
 ![`Configur-Watson-IoT2`](images/Configur-Watson-IoT2.png)
 
