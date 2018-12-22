@@ -20,8 +20,11 @@ After completing this project, you will understand how to;
 In order to complete this project, you will need the following prerequisites:
 - [IBM Cloud](https://www.ibm.com/cloud/) account - sign up if you don't have an account yet.
 
+- [Internet of Things Platform](https://console.bluemix.net/catalog/services/internet-of-things-platform)
 - [Node-RED starter](https://console.bluemix.net/catalog/starters/node-red-starter)
 - Raspberry Pi 3
+
+
 
 
 ## Estimated time
@@ -33,46 +36,66 @@ In order to complete this project, you will need the following prerequisites:
 
 ### Create Watson IoT Devices in IBM Watson IoT Platform 
 
-![``](images/Create-Watson-IoT-Devices.png)
-meshaa
-![``](images/Create-Watson-IoT-Devices2.png)
-![``](images/Create-Watson-IoT-Devices3.png)
-![``](images/Create-Watson-IoT-Devices4.png)
+After creating an Internet of Things Platform in IBM Cloud, click on Launch to go to IBM IoT Platform page.
+
+![`Internet_of_Things_Platform`](images/Internet_of_Things_Platform.png)
+
+Then go to Devices tab form the left side and **click** on ADD Device. **Note:_Remember Your Organization ID_**
+
+![`Create-Watson-IoT-Devices`](images/Create-Watson-IoT-Devices.png)
+
+Fill all the important information.
+
+
+
+
+
+
+
+![`Create-Watson-IoT-Devices2`](images/Create-Watson-IoT-Devices2.png)
+
+Fill the authentication Token or keep it empty to be generated for you.
+
+![`Create-Watson-IoT-Devices3`](images/Create-Watson-IoT-Devices3.png)
+
+These are important information to access to this device. **Save and keep them safe**.
+
+![`Create-Watson-IoT-Devices4`](images/Create-Watson-IoT-Devices4.png)
 
 
  
 ### Configure your Node-RED application on Raspberry pi
-![``](images/Configur-Watson-IoT.png)
-![``](images/Configur-Watson-IoT2.png)
-![``](images/Configur-Watson-IoT3.png)
-![``](images/Configur-Watson-IoT4.png)
-![``](images/Configur-Watson-IoT5.png)
-![``](images/Configur-Watson-IoT6.png)
-![``](images/Configur-Watson-IoT7.png)
-![``](images/Configur-Watson-IoT8.png)
+![`Configur-Watson-IoT`](images/Configur-Watson-IoT.png)
+![`Configur-Watson-IoT2`](images/Configur-Watson-IoT2.png)
+![`Configur-Watson-IoT3`](images/Configur-Watson-IoT3.png)
+![`Configur-Watson-IoT4`](images/Configur-Watson-IoT4.png)
+![`Configur-Watson-IoT5`](images/Configur-Watson-IoT5.png)
+![`Configur-Watson-IoT6`](images/Configur-Watson-IoT6.png)
+![`Configur-Watson-IoT7`](images/Configur-Watson-IoT7.png)
+![`Configur-Watson-IoT8`](images/Configur-Watson-IoT8.png)
 
 
 
 ### Create Watson IoT APP in IBM Watson IoT Platform 
-![``](images/Create-Watson-IoT-APP.png)
+![`Create-Watson-IoT-APP`](images/Create-Watson-IoT-APP.png)
 
 
 ### Configure your Node-RED application on IBM Cloud
 
-![``](images/Configur-IBM-IoT.png)
-![``](images/Configur-IBM-IoT2.png)
-![``](images/Configur-IBM-IoT3.png)
+![`Configur-IBM-IoT`](images/Configur-IBM-IoT.png)
+![`Configur-IBM-IoT2`](images/Configur-IBM-IoT2.png)
+![`Configur-IBM-IoT3`](images/Configur-IBM-IoT3.png)
 
 ### Create your Node-RED flow on Raspberry pi
 
-![``](images/Node-red-in-Raspberry-pi.png)
+![`Node-red-in-Raspberry-pi`](images/Node-red-in-Raspberry-pi.png)
 
 ### Create your Node-RED flow on IBM Cloud
 
 
 
-![``](images/Node-red-in-Cloud.png)
-![``](images/Node-red-in-Cloud-UI.png)
+![`Node-red-in-Cloud`](images/Node-red-in-Cloud.png)
+![`Node-red-in-Cloud-UI`](images/Node-red-in-Cloud-UI.png)
 
 
 ## Building an IoT application
