@@ -2,23 +2,27 @@
 ----------------------------------------------------------------------------------------------------
 
 ## Overview
-Terjmat is a multi-language translation service integrated with Telegram application to make the translation easy by using IBM services. IBM's Language Translator is one of the best language translation service, it has the capability to connect to other IBM's services. These services can be linked to Telegram application using Node-RED app. When you link them, users can use the translation in an easy way by sending text or voice to your bot. In this guide, we shall go through the steps involved in creating a Node-RED boilerplate available in IBM Cloud and link Terjmat to a Telegram as the user interface using Node-RED flows in under 20 minutes by using only IBM Cloud services.
+
+IoT technology is the devices’ future. Home automation is one of IoT application which helps to solve many problems and give us plenty of accessibility like controlling the devices by a website or smartphone app. This project is a sample of home automation devices which you can apply it to other home devices. 
+
+
+
 
 ## Learning objectives
 After completing this project, you will understand how to;
+- Using a Node-RED in Raspberry Pi
+
 - [Create a Node-RED flow](#creating-node-red)
-- [Create a Telegram bot](#creating-a-telegram-bot)
+///
 - [Create a translator dialog using Language Translator, Speech to Text, Text to Speech IBM services](#create-the-flow)
 - [Integrate Node-RED with Telegram as an interface for Terjmat](#configure-the-telegram)
 ## Prerequisites
 In order to complete this project, you will need the following prerequisites:
 - [IBM Cloud](https://www.ibm.com/cloud/) account - sign up if you don't have an account yet.
-- [Language Translator](https://github.com/watson-developer-cloud/node-red-labs/blob/master/basic_examples/language_translator/README.md) service
-- [Language Identification](https://github.com/watson-developer-cloud/node-red-labs/blob/master/basic_examples/language_identification/README.md) service
-- [Speech to Text](https://github.com/watson-developer-cloud/node-red-labs/blob/master/basic_examples/speech_to_text/README.md) service
-- [Text to Speech](https://github.com/watson-developer-cloud/node-red-labs/blob/master/basic_examples/text_to_speech/README.md) service
+
 - [Node-RED starter](https://console.bluemix.net/catalog/starters/node-red-starter)
-- Install Telegram Application on your Mobile Phone.
+- Raspberry Pi 3
+
 
 ## Estimated time
 - Creating a bot on Telegram should take less than 5 minutes
@@ -30,6 +34,7 @@ In order to complete this project, you will need the following prerequisites:
 ### Create Watson IoT Devices in IBM Watson IoT Platform 
 
 ![``](images/Create-Watson-IoT-Devices.png)
+meshaa
 ![``](images/Create-Watson-IoT-Devices2.png)
 ![``](images/Create-Watson-IoT-Devices3.png)
 ![``](images/Create-Watson-IoT-Devices4.png)
