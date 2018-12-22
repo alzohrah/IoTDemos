@@ -78,7 +78,7 @@ If you don't have, select manage palette from the top right menu.
 
 At the manage palette menu click on the Install tab then search for ibm-watson-iot. After that, install node-red-contrib-ibm-watson-iot and close the palette menu.
 
-![`Translator`](images/9.png)
+![`Translator`](images/ibm-watson-iot.png)
 
 
 ![`Configur-Watson-IoT`](images/Configur-Watson-IoT.png)
