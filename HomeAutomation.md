@@ -76,18 +76,32 @@ If you don't have, select manage palette from the top right menu.
 
 ![`Translator`](images/8.jpg)
 
-At the manage palette menu click on the Install tab then search for ibm-watson-iot. After that, install node-red-contrib-ibm-watson-iot and close the palette menu.
+At the manage palette menu click on the Install tab then search for ```ibm-watson-iot```. After that, install node-red-contrib-ibm-watson-iot and close the palette menu.
 
-![`Translator`](images/ibm-watson-iot.png)
+![`ibm-watson-iot`](images/ibm-watson-iot.png)
+
+
+Search for **Watson IoT** nodes from the upper left filter section then drag and drop it.  
+
+
+
+
+
 
 
 ![`Configur-Watson-IoT`](images/Configur-Watson-IoT.png)
 
+
+Double click on the node and click on the pencil icon for configuring your watson IoT credentials
+
 ![`Configur-Watson-IoT2`](images/Configur-Watson-IoT2.png)
 
-
+Fill the all the important fields according to the your devices credentials on IBM Watson IoT platform that created earlier.
+\* **Note:** write youe server as the following ; ```[your_organizer_id].messaging.internetofthings.ibmcloud.com```
 
 ![`Configur-Watson-IoT3`](images/Configur-Watson-IoT3.png)
+
+Click on **Deploy** to check if your node is connected successfully. 
 
 
 
@@ -95,30 +109,65 @@ At the manage palette menu click on the Install tab then search for ibm-watson-i
 
 
 
+If shows *disconnected* and all the information correct, go to **Logs** under your device in IBM Watson IoT platform. You'll see the same message because the security. **_Save your IP_**
+
+
+
+
 ![`Configur-Watson-IoT5`](images/Configur-Watson-IoT5.png)
+
+Then go to **Policies** and click on the pencil icon next to *Whitelist* to add your IP.
+
+
 
 
 ![`Configur-Watson-IoT6`](images/Configur-Watson-IoT6.png)
 
+Add your IP address that showed earlier to Whitelist.
+
+
 
 ![`Configur-Watson-IoT7`](images/Configur-Watson-IoT7.png)
+
+
+Redeploy your Node-RED flow. Now you have configured the Watson IoT part on Raspberry Pi.
 
 
 ![`Configur-Watson-IoT8`](images/Configur-Watson-IoT8.png)
 
 
 
+
+
+
 ### Create Watson IoT APP in IBM Watson IoT Platform 
+
+Go to *IBM Watson IoT platform* and click on **Apps**. *Generate API key* then save your credentials and keep them safe.
+
 ![`Create-Watson-IoT-APP`](images/Create-Watson-IoT-APP.png)
 
 
 ### Configure your Node-RED application on IBM Cloud
 
+
+Open your Node-RED on IBM Cloud then drag and drop IBM IoT.
+
+
+
 ![`Configur-IBM-IoT`](images/Configur-IBM-IoT.png)
+
+Then double click on the node and click on the pencil icon for configuring your IBM IoT credentials
 ![`Configur-IBM-IoT2`](images/Configur-IBM-IoT2.png)
+
+Fill all fields according to the your API credentials on IBM Watson IoT platform that created earlier.
+
+\* **Note:** write youe server as the following ; ```[your_organizer_id].messaging.internetofthings.ibmcloud.com```
+
 ![`Configur-IBM-IoT3`](images/Configur-IBM-IoT3.png)
 
 ### Create your Node-RED flow on Raspberry pi
+
+
 
 ![`Node-red-in-Raspberry-pi`](images/Node-red-in-Raspberry-pi.png)
 
