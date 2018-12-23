@@ -167,90 +167,51 @@ Fill all fields according to the your API credentials on IBM Watson IoT platform
 
 ### Create your Node-RED flow on Raspberry pi
 
-[Sample_IoT_application_flow](Sample_IoT_application_flow)
+
+
+
+Copy the code form the [Node_RED_Raspberry_Pi_flow](Node_RED_Raspberry_Pi_flow) flow and import them into **Raspberry Pi** Node-RED clipboard:
+
+
+
+![`Import_flow`](images/Import_flow.png)
+
+Then, configure Watson IoT node.
+
+Finally, your flow should look like the following figure. Click on Deploy button in the upper right
+
 
 ![`Node-red-in-Raspberry-pi`](images/Node-red-in-Raspberry-pi.png)
 
 ### Create your Node-RED flow on IBM Cloud
 
 
+If you don't have DashBoard, select manage palette from the top right menu.
+
+![`Translator`](images/8.jpg)
+
+At the manage palette menu click on the Install tab then search for ```node-red-dashboard```. After that, install node-red-dashboard and close the palette menu.
+
+
+After that, copy the code form the [Node_RED_IBM_Cloud_flow](Node_RED_IBM_Cloud_flow) flow and import them into **IBM Cloud** Node-RED clipboard:
+
+
+
+![`Import_flow`](images/Import_flow.png)
+
+Then, configure Watson IoT node.
+
+Finally, your flow should look like the following figure. Click on Deploy button in the upper right
+
 
 ![`Node-red-in-Cloud`](images/Node-red-in-Cloud.png)
+
+
+To see your dashboard, go to ```[yourdomain] /ui ```
+
+
 ![`Node-red-in-Cloud-UI`](images/Node-red-in-Cloud-UI.png)
 
 
-## Building an IoT application
-
-### Configure IBM IoT platform
-
-Now, this is Node-RED editer and we need to add IBM Watson IoT nodes, so select manage palette from the top right menu.
-
-![`Translator`](images/8.jpg)
-
-At the manage palette menu click on the Install tab then search for ```node-red-contrib-ibm-watson-iot```. After that, install node-red-contrib-telegrambot and close the palette menu.
-
-![`Translator`](images/ibm-watson-iot.png)
-
-Search for telegram nodes from the upper left filter section then drag and drop Telegram receiver and Telegram sender nodes.  
-![`Translator`](images/10.png)
-
-
-
-### Creating Node-RED
-To create and configur Node-RED app, go to your IBM Cloud account and click Catalog then choice Starter Kits from the lift side then choice Node-RED Starter as shown in the following figure.
-
-![`Translator`](images/3.png)
-
-
-
-After that, Fill-out the fields to create IoT Platform:
-- App name: has to be unique in the IBM cloud domain.
-- Host name: will be filled out automatically based on the App name.
-
-click on Create 
-![`Translator`](images/4.png)
-
-Then, wait seconds until shows the application shows Running and click on Visit App URL
-
-![`Translator`](images/5.png)
-
-After that, for first time, it will ask you to setup the username and password. Please follow the instruction to secure your editor so only authorized users can access it. 
-
-<img src="images/6.png" width="50%" height="40%" >
-
-Then, click on "Go to your Node-RED flow editor".
-
-![`Translator`](images/7.png)
-
-### Configure the Telegram 
-Now, this is Node-RED editer and we need to add Telegram nodes, so select manage palette from the top right menu.
-
-![`Translator`](images/8.jpg)
-
-At the manage palette menu click on the Install tab then search for telegram. After that, install node-red-contrib-telegrambot and close the palette menu.
-
-![`Translator`](images/9.png)
-
-Search for telegram nodes from the upper left filter section then drag and drop Telegram receiver and Telegram sender nodes.  
-![`Translator`](images/10.png)
-Double click on the Telegram receiver node and click on the pencil icon for configuring your bot credentials
-
-![`Translator`](images/11.png)
-
-Fill the bot-name and token fields according to the bot credentials you created earlier.
-
-![`Translator`](images/12.png)
-
-In Telegram sender node select the bot credentials you created in Telegram receiver node (example_bot in my case).
-
-![`Translator`](images/13.png)
-
-Now you have configured the Telegram part on Node-RED. You can test it by connecting the Telegram receiver node to the Telegram sender node.
-
-![`Translator`](images/14.png)
-
-You can send a message to your bot on Telegram and it will echo the message you wrote. That's because we forwarded the message payload directly to the Telegram sender.
-
-<img src="images/15.jpg" width="50%" height="40%" >
-
+**_Congratulations!!_**
 
