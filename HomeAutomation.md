@@ -15,26 +15,29 @@ After completing this project, you will understand how to;
 - [Create Watson IoT Devices in IBM Watson IoT Platform](#Create-Watson-IoT-Devices-in-IBM-Watson-IoT-Platform)
 - [Configure your Node-RED application on Raspberry pi](#Configure-your-Node-RED-application-on-Raspberry-pi)
 
-- [Create a Node-RED flow](#creating-node-red)
-- [Create a Node-RED flow](#creating-node-red)
-///
-- [Create a translator dialog using Language Translator, Speech to Text, Text to Speech IBM services](#create-the-flow)
-- [Integrate Node-RED with Telegram as an interface for Terjmat](#configure-the-telegram)
+- [Create Watson IoT APP in IBM Watson IoT Platform](#Create-Watson-IoT-APP-in-IBM-Watson-IoT-Platform)
+- [Configure your Node-RED application on IBM Cloud](#Configure-your-Node-RED-application-on-IBM-Cloud)
+- [Create your Node-RED flow on Raspberry pi](#Create-your-Node-RED-flow-on-Raspberry-pi)
+- [Create your Node-RED flow on IBM Cloud](#Create-your-Node-RED-flow-on-IBM-Cloud)
+
 ## Prerequisites
 In order to complete this project, you will need the following prerequisites:
 - [IBM Cloud](https://www.ibm.com/cloud/) account - sign up if you don't have an account yet.
 
 - [Internet of Things Platform](https://console.bluemix.net/catalog/services/internet-of-things-platform)
 - [Node-RED starter](https://console.bluemix.net/catalog/starters/node-red-starter)
-- Raspberry Pi 3
+- [Raspberry Pi](https://console.bluemix.net/catalog/starters/node-red-starter)
+- Raspberry Pi
 
 
 
 
 ## Estimated time
-- Creating a bot on Telegram should take less than 5 minutes
+- Creating a Watson IoT Devices on IBM Watson IoT Platform should take less than 10 minutes.
+- Creating your Node-RED application on Raspberry pi should take less than 10 minutes.
+- Creating your Node-RED application on IBM Cloud should take less than 10 minutes.
 - Developing the complete application on Node-RED should take a maximum 20 minutes.
-- Overall the time for completing this project should take approximately 25 minutes.
+- Overall the time for completing this project should take approximately 50 minutes.
 
 
 
