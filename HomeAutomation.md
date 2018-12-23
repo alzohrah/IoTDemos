@@ -12,6 +12,10 @@ IoT technology is the devices’ future. Home automation is one of IoT applicati
 After completing this project, you will understand how to;
 - Using a Node-RED in Raspberry Pi
 
+- [Create Watson IoT Devices in IBM Watson IoT Platform](#Create-Watson-IoT-Devices-in-IBM-Watson-IoT-Platform)
+- [Configure your Node-RED application on Raspberry pi](#Configure-your-Node-RED-application-on-Raspberry-pi)
+
+- [Create a Node-RED flow](#creating-node-red)
 - [Create a Node-RED flow](#creating-node-red)
 ///
 - [Create a translator dialog using Language Translator, Speech to Text, Text to Speech IBM services](#create-the-flow)
@@ -160,7 +164,6 @@ Then double click on the node and click on the pencil icon for configuring your 
 ![`Configur-IBM-IoT2`](images/Configur-IBM-IoT2.png)
 
 Fill all fields according to the your API credentials on IBM Watson IoT platform that created earlier.
-
 \* **Note:** write your server as the following ; ```[your_organizer_id].messaging.internetofthings.ibmcloud.com```
 
 ![`Configur-IBM-IoT3`](images/Configur-IBM-IoT3.png)
