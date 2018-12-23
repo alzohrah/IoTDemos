@@ -71,7 +71,7 @@ Check your Nodes pane on the left side if it has an ibm-watson-iot nodes as it s
 
 ![`IBMWatson-IoT`](images/IBMWatson-IoT.png)
 
-*skip this step if you have* 
+\* *skip this step if you have* \*
 If you don't have, select manage palette from the top right menu.
 
 ![`Translator`](images/8.jpg)
