@@ -97,7 +97,7 @@ Double click on the node and click on the pencil icon for configuring your watso
 ![`Configur-Watson-IoT2`](images/Configur-Watson-IoT2.png)
 
 Fill the all the important fields according to the your devices credentials on IBM Watson IoT platform that created earlier.
-\* **Note:** write youe server as the following ; ```[your_organizer_id].messaging.internetofthings.ibmcloud.com```
+\* **Note:** write your server as the following ; ```[your_organizer_id].messaging.internetofthings.ibmcloud.com```
 
 ![`Configur-Watson-IoT3`](images/Configur-Watson-IoT3.png)
 
@@ -161,13 +161,13 @@ Then double click on the node and click on the pencil icon for configuring your 
 
 Fill all fields according to the your API credentials on IBM Watson IoT platform that created earlier.
 
-\* **Note:** write youe server as the following ; ```[your_organizer_id].messaging.internetofthings.ibmcloud.com```
+\* **Note:** write your server as the following ; ```[your_organizer_id].messaging.internetofthings.ibmcloud.com```
 
 ![`Configur-IBM-IoT3`](images/Configur-IBM-IoT3.png)
 
 ### Create your Node-RED flow on Raspberry pi
 
-
+[Sample_IoT_application_flow](Sample_IoT_application_flow)
 
 ![`Node-red-in-Raspberry-pi`](images/Node-red-in-Raspberry-pi.png)
 
