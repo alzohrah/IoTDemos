@@ -5,6 +5,9 @@ Here some sample of IoT projects;
 
 ### Getting started with Node-RED
 
+Introducing how to use Node-RED in Raspberry Pi and control LEDs via the Raspberry Pi's GPIO pins.
+
+
 [Getting started with Node-RED](Getting_started_with_Node-RED.md)
 
 ----------------------------------------------------------------------------------------------------
