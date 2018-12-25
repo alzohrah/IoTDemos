@@ -3,7 +3,7 @@
 
 ### Create your Application on IBM Cloud
 
-1. Create an account or Log in to IBM Cloud http://edit
+1. Create an account or Log in to IBM Cloud [Click Here](ibm.biz/home-automation-workshop).
 
 2. Click on Catalog > Boilerplates > Internet of Things Platform Starter.
 
