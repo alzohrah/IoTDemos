@@ -22,7 +22,7 @@ After completing this project, you will understand how to;
 
 ## Prerequisites
 In order to complete this project, you will need the following prerequisites:
-- [IBM Cloud](https://www.ibm.com/cloud/) account - sign up if you don't have an account yet.
+- [IBM Cloud](ibm.biz/home-automation-workshop) account - sign up if you don't have an account yet.
 
 - [Internet of Things Platform](https://console.bluemix.net/catalog/services/internet-of-things-platform)
 - [Node-RED starter](https://console.bluemix.net/catalog/starters/node-red-starter)
