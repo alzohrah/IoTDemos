@@ -10,7 +10,7 @@ IoT technology is the devices’ future. Home automation is one of IoT applicati
 
 ## Learning objectives
 After completing this project, you will understand how to;
-- Using a Node-RED in Raspberry Pi
+- Using a Node-RED.
 
 - [Create Watson IoT Devices in IBM Watson IoT Platform](#Create-Watson-IoT-Devices-in-IBM-Watson-IoT-Platform)
 - [Configure your Node-RED application on Raspberry pi](#Configure-your-Node-RED-application-on-Raspberry-pi)
@@ -22,14 +22,9 @@ After completing this project, you will understand how to;
 
 ## Prerequisites
 In order to complete this project, you will need the following prerequisites:
-- [IBM Cloud](ibm.biz/home-automation-workshop) account - sign up if you don't have an account yet.
-
-- [Internet of Things Platform](https://console.bluemix.net/catalog/services/internet-of-things-platform)
+- [IBM Cloud](http://ibm.biz/iot-cloud-signup) account - sign up if you don't have an account yet.
 - [Node-RED starter](https://console.bluemix.net/catalog/starters/node-red-starter)
-- [Raspberry Pi](https://console.bluemix.net/catalog/starters/node-red-starter)
-- Raspberry Pi
-
-
+- [Visual Recognition](https://console.bluemix.net/catalog/services/visual-recognition)
 
 
 ## Estimated time
