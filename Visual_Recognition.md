@@ -21,7 +21,7 @@ After completing this project, you will understand how to;
 In order to complete this project, you will need the following prerequisites:
 - [IBM Cloud](http://ibm.biz/iot-cloud-signup) account - sign up if you don't have an account yet.
 - [Node-RED starter](https://console.bluemix.net/catalog/starters/node-red-starter)
-- [Visual Recognition](https://console.bluemix.net/catalog/services/visual-recognition)
+- [IBM Watson Visual Recognition](https://console.bluemix.net/catalog/services/visual-recognition)
 
 
 ## Estimated time
@@ -33,9 +33,14 @@ In order to complete this project, you will need the following prerequisites:
 
 
 
-### Create Watson IoT Devices in IBM Watson IoT Platform 
+### Create IBM Watson Visual Recognition
 
-After creating an Internet of Things Platform in IBM Cloud, click on Launch to go to IBM IoT Platform page.
+Open your IBM Cloud account then **click** on _Catalog_ --> _AI_ --> _Visual Recognition_ 
+![`watson_visual_recognition1`](images/watson_visual_recognition1.png)
+
+After creating the service, save the Visual Recognition credentials.
+
+![`watson_visual_recognition1`](images/watson_visual_recognition1.png)
 
 ![`Internet_of_Things_Platform`](images/Internet_of_Things_Platform.png)
 
