@@ -40,7 +40,7 @@ Open your IBM Cloud account then **click** on _Catalog_ --> _AI_ --> _Visual Rec
 
 After creating the service, save the Visual Recognition credentials.
 
-![`watson_visual_recognition1`](images/watson_visual_recognition1.png)
+![`watson_visual_recognition2`](images/watson_visual_recognition2.png)
 
 ![`Internet_of_Things_Platform`](images/Internet_of_Things_Platform.png)
 
