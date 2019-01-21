@@ -68,5 +68,10 @@ Your flow should look like the following figure.
 Double click on visual recognition node then fill the following; API Key, Service Endpoint, and choose Classify an image on Detect. 
 
 Finally, click on Deploy button in the upper right.
+
+To see your application, go to ```[yourdomain] /upload ```
+
+![`watson_visual_recognition6`](images/watson_visual_recognition6.png)
+
 **_Congratulations!!_**
 
