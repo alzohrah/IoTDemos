@@ -9,29 +9,22 @@ Analyzing picture become easier recently by using IBM Watson Visual Recognition.
 After completing this project, you will understand how to;
 - Using a Node-RED.
 
-- [Create Watson IoT Devices in IBM Watson IoT Platform](#Create-Watson-IoT-Devices-in-IBM-Watson-IoT-Platform)
-- [Configure your Node-RED application on Raspberry pi](#Configure-your-Node-RED-application-on-Raspberry-pi)
-
-- [Create Watson IoT APP in IBM Watson IoT Platform](#Create-Watson-IoT-APP-in-IBM-Watson-IoT-Platform)
-- [Configure your Node-RED application on IBM Cloud](#Configure-your-Node-RED-application-on-IBM-Cloud)
-- [Create your Node-RED flow on Raspberry pi](#Create-your-Node-RED-flow-on-Raspberry-pi)
-- [Create your Node-RED flow on IBM Cloud](#Create-your-Node-RED-flow-on-IBM-Cloud)
+- [Create IBM Watson Visual Recognition](#Create-IBM-Watson-Visual-Recognition)
+- [Create the flow](#Create-the-flow)
+- [Configure IBM Watson Visual Recognition on Node-RED](#Configure-IBM-Watson-Visual-Recognition-on-Node-RED)
 
 ## Prerequisites
 In order to complete this project, you will need the following prerequisites:
 - [IBM Cloud](http://ibm.biz/iot-cloud-signup) account - sign up if you don't have an account yet.
 - [Node-RED starter](https://console.bluemix.net/catalog/starters/node-red-starter)
-- [IBM Watson Visual Recognition](https://console.bluemix.net/catalog/services/visual-recognition)
+- [IBM Watson Visual Recognition](https://console.bluemix.net/catalog/services/visual-recognition) service.
 
 
 ## Estimated time
-- Creating a Watson IoT Devices on IBM Watson IoT Platform should take less than 10 minutes.
-- Creating your Node-RED application on Raspberry pi should take less than 10 minutes.
-- Creating your Node-RED application on IBM Cloud should take less than 10 minutes.
-- Developing the complete application on Node-RED should take a maximum 20 minutes.
-- Overall the time for completing this project should take approximately 50 minutes.
-
-
+- Create IBM Watson Visual Recognition should take less than 3 minutes.
+- Creating and configure your Node-RED application on IBM Cloud should take less than 10 minutes.
+- Developing the complete application on Node-RED should take a maximum 10 minutes.
+- Overall the time for completing this project should take approximately 25 minutes.
 
 ### Create IBM Watson Visual Recognition
 
