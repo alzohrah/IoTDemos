@@ -1,14 +1,12 @@
-# Analyze picture using IBM watson and Node Red.
+# Analyze pictures using IBM watson and Node Red.
 ----------------------------------------------------------------------------------------------------
 
 ## Overview
+Analyzing pictures became easier recently by using IBM Watson Visual Recognition service. The service will analyze a picture and give you all objects inside the picture with the percentage of accuracy. This project is a sample of visual recognition web app to analyze pictures and detect objects. 
 
-Analyzing picture become easier recently by using IBM Watson Visual Recognition. It will analyze the picture and give you all objects inside the picture with the percentage of accuracy. This project is a sample of visual recognition web app to analyze picture and detect an object. 
-
-## Learning objectives
+## Learning Objectives
 After completing this project, you will understand how to;
-- Using a Node-RED.
-
+- Use Node-RED.
 - [Create IBM Watson Visual Recognition](#Create-IBM-Watson-Visual-Recognition)
 - [Create the flow](#Create-the-flow)
 - [Configure IBM Watson Visual Recognition on Node-RED](#Configure-IBM-Watson-Visual-Recognition-on-Node-RED)
@@ -20,7 +18,7 @@ In order to complete this project, you will need the following prerequisites:
 - [IBM Watson Visual Recognition](https://console.bluemix.net/catalog/services/visual-recognition) service.
 
 
-## Estimated time
+## Estimated Time
 - Create IBM Watson Visual Recognition should take less than 3 minutes.
 - Creating and configure your Node-RED application on IBM Cloud should take less than 10 minutes.
 - Developing the complete application on Node-RED should take a maximum 10 minutes.
@@ -58,7 +56,7 @@ Your flow should look like the following figure.
 
 ### Configure IBM Watson Visual Recognition on Node-RED
 
-Double click on visual recognition node then fill the following; API Key, Service Endpoint, and choose Classify an image on Detect. 
+Double click on the visual recognition node then fill the following; API Key, Service Endpoint, and choose Classify an image on Detect. 
 
 Finally, click on Deploy button in the upper right.
 
@@ -66,5 +64,5 @@ To see your application, go to ```[yourdomain] /upload ```
 
 ![`watson_visual_recognition6`](images/watson_visual_recognition6.png)
 
-**_Congratulations!!_**
+**_Congratulations!! You've successfully integrated a watson service using Node-RED_**
 
