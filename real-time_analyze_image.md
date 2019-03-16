@@ -83,11 +83,13 @@ Your flow should look like the following figure.
 
 Double click on the visual recognition node then fill the following; API Key, Service Endpoint, and choose Classify an image on Detect. 
 
-Finally, click on Deploy button in the upper right.
+Finally, click on **Deploy** button in the upper right.
 
-To see your application, go to ```[yourdomain] /upload ```
+To see your application, go to ```[yourdomain] /ui ```
 
-![`watson_visual_recognition6`](images/watson_visual_recognition6.png)
+![`node-red_real-time_ui`](images/node-red_real-time_ui.png)
 
-**_Congratulations!! You've successfully integrated a watson service using Node-RED_**
+Click to take picture to start analyzing!!
+
+**_Congratulations!! You've successfully create real-time images analyzing using Node-RED_**
 
