@@ -77,7 +77,7 @@ Copy the code form the [real-time_analyze_image_flow](real-time_analyze_image_fl
 Your flow should look like the following figure. 
 
 
-![`watson_visual_recognition3`](images/watson_visual_recognition3.png)
+![`real-time_v`](images/real-time_v.png)
 
 ### Configure IBM Watson Visual Recognition on Node-RED
 
