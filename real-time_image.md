@@ -1,8 +1,8 @@
-# Analyze realtime images from your computer using Visual Recognition on Node-RED
+# Analyze real-time images from your computer using Visual Recognition on Node-RED
 ----------------------------------------------------------------------------------------------------
 
 ## Overview
-Analyzing pictures became easier recently by using IBM Watson Visual Recognition service. The service will analyze a picture and give you all objects inside the picture with the percentage of accuracy. This project is a sample of visual recognition web app to analyze pictures and detect objects. 
+Analyzing pictures became easier recently by using IBM Watson Visual Recognition service. This application will take an image from your computer camera and analyze it to give you the gender of persons and their age with the percentage of accuracy.
 
 ## Learning Objectives
 After completing this project, you will understand how to;
@@ -21,8 +21,8 @@ In order to complete this project, you will need the following prerequisites:
 ## Estimated Time
 - Create IBM Watson Visual Recognition should take less than 3 minutes.
 - Creating and configure your Node-RED application on IBM Cloud should take less than 10 minutes.
-- Developing the complete application on Node-RED should take a maximum 10 minutes.
-- Overall the time for completing this project should take approximately 25 minutes.
+- Developing the complete application on Node-RED should take a maximum 5 minutes.
+- Overall the time for completing this project should take approximately 20 minutes.
 
 ### Create IBM Watson Visual Recognition
 
