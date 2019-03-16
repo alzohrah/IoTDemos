@@ -41,6 +41,24 @@ After creating the service, **save the credentials and keep them safe**.
  
 ### Create the flow. 
 
+If you don't have DashBoard, select manage palette from the top right menu.
+
+![`Translator`](images/8.jpg)
+
+At the manage palette menu click on the Install tab then search for ```node-red-dashboard``` and install it.
+
+
+
+After that, search for ```node-red-node-base64``` and install it.
+
+
+
+
+
+
+Then, close the palette menu.
+
+
 
 Copy the code form the [visual recognition flow](visual_recognition_flow.json) and import it into _IBM Cloud Node-RED_ clipboard:
 
