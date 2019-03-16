@@ -47,13 +47,11 @@ If you don't have DashBoard, select manage palette from the top right menu.
 
 At the manage palette menu click on the Install tab then search for ```node-red-dashboard``` and install it.
 
-
+![`node-red-dashboard`](images/install_dashboard.png)
 
 After that, search for ```node-red-node-base64``` and install it.
 
-
-
-
+![`node-red-dashboard`](images/install_base64.png)
 
 
 Then, close the palette menu.
