@@ -58,7 +58,7 @@ Then, close the palette menu.
 
 
 
-Copy the code form the [visual recognition flow](visual_recognition_flow.json) and import it into _IBM Cloud Node-RED_ clipboard:
+Copy the code form the [real-time_analyze_image_flow](real-time_analyze_image_flow.json) and import it into _IBM Cloud Node-RED_ clipboard:
 
 
 
