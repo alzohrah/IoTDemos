@@ -41,17 +41,26 @@ After creating the service, **save the credentials and keep them safe**.
  
 ### Create the flow. 
 
-If you don't have DashBoard, select manage palette from the top right menu.
+If you don't have virtual-tjbot, base64,or DashBoard nodes, select manage palette from the top right menu.
 
 ![`Translator`](images/8.jpg)
 
+#### install virtual-tjbot
+At the manage palette menu click on the Install tab then search for ```node-red-contrib-virtual-tjbot``` and install it.
+
+
+![`install_virtual-tjbot`](images/install_virtual-tjbot.png)
+
+
+#### install dashboard
 At the manage palette menu click on the Install tab then search for ```node-red-dashboard``` and install it.
 
 ![`node-red-dashboard`](images/install_dashboard.png)
 
-After that, search for ```node-red-node-base64``` and install it.
+#### install base64
+At the manage palette menu click on the Install tab then search for ```node-red-node-base64``` and install it.
 
-![`node-red-dashboard`](images/install_base64.png)
+![`install_base64`](images/install_base64.png)
 
 
 Then, close the palette menu.
