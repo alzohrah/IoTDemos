@@ -42,7 +42,7 @@ After creating the service, **save the credentials and keep them safe**.
  ### Creating Node-RED
 To create and configur Node-RED app, go to your IBM Cloud account and click Catalog then choice Starter Kits from the lift side then choice Node-RED Starter as shown in the following figure.
 
-![`Translator`](images/3.png)
+![`Create_node_red`](images/Create_node_red.png)
 
 
 
@@ -51,19 +51,20 @@ After that, Fill-out the fields to create IoT Platform:
 - Host name: will be filled out automatically based on the App name.
 
 click on Create 
-![`Translator`](images/4.png)
+![`4`](images/4.png)
 
 Then, wait seconds until shows the application shows Running and click on Visit App URL
 
-![`Translator`](images/5.png)
+![`5`](images/5.png)
 
 After that, for first time, it will ask you to setup the username and password. Please follow the instruction to secure your editor so only authorized users can access it. 
 
-<img src="images/6.png" width="50%" height="40%" >
+
+![`6`](images/6.png)
 
 Then, click on "Go to your Node-RED flow editor".
 
-![`Translator`](images/7.png)
+![`7`](images/7.png)
 
 
 ### Create the flow. 
